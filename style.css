@@ -10,3 +10,6 @@ body {
 #main-doc {
   grid-area: "content";
 }
+
+@media (max-width: 640px) {
+}
