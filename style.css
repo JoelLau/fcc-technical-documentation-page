@@ -1,0 +1,12 @@
+body {
+  display: grid;
+  grid-template-areas: "sidebar content";
+}
+
+#navbar {
+  grid-area: "sidebar";
+}
+
+#main-doc {
+  grid-area: "content";
+}
